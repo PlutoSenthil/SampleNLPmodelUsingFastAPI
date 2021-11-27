@@ -1,0 +1,2 @@
+# SampleNLPmodelUsingFastAPI
+for Testing deployement
