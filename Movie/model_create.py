@@ -37,7 +37,7 @@ import configparser
 config_object= configparser.ConfigParser()
 config_object.read("configVariable.ini")
 # load data
-data = pd.read_csv(config_object['Path']['input_path'], sep='\t')
+data = pd.read_excel(config_object['Path']['input_path'])
 # show top five rows of data
 data.head()
 
